@@ -18,3 +18,9 @@ alias gaa="git add ."
 alias gcm="git commit -m"
 alias gst="git status"
 alias gfa="git fetch -a"
+
+# Path
+alias personal="cd ~/Projects/Personal"
+alias jobs="cd ~/Projects/Jobs"
+alias practice="cd ~/Projects/Practice"
+
