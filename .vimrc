@@ -7,3 +7,5 @@ set mouse=a
 set backspace=2
 set history=100
 syntax on
+set list
+set listchars=tab:→\ ,trail:⋅,extends:❯,precedes:❮,space:⋅
