@@ -1,3 +1,7 @@
+call plug#begin('~/.vim/plugged')
+
+call plug#end()
+
 set nu
 set ai
 set cursorline
@@ -10,5 +14,4 @@ set list
 set listchars=tab:→\ ,trail:⋅,extends:❯,precedes:❮,space:⋅
 set runtimepath^=~/.vim
 syntax enable
-set background=dark
-colorscheme material-theme
+colorscheme spring-night
