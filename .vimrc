@@ -1,6 +1,15 @@
-call plug#begin('~/.vim/plugged')
+set nocompatible
+filetype off
 
-call plug#end()
+set rtp+=~/.vim/bundle/Vundle.vim
+
+call vundle#begin()
+
+Plugin 'scrooloose/nerdtree'
+
+call vundle#end()
+
+filetype plugin indent on
 
 set nu
 set ai
