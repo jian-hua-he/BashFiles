@@ -7,6 +7,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'isRuslan/vim-es6'
 Plugin 'scrooloose/nerdtree'
+Plugin 'git@github.com:vim-scripts/xoria256.vim.git'
 call vundle#end()
 
 filetype plugin indent on
