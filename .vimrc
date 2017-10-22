@@ -1,4 +1,6 @@
-" Vundle Setting
+" ##################
+" # Vundle Setting #
+" ##################
 set nocompatible
 filetype off
 
@@ -12,12 +14,16 @@ call vundle#end()
 
 filetype plugin indent on
 
-" Vim Plug
+" ############
+" # Vim Plug #
+" ############
 call plug#begin('~/.vim/plugged')
 Plug 'fatih/vim-go'
 call plug#end()
 
-" General
+" ###########
+" # General #
+" ###########
 set nu
 set ai
 set cursorline
@@ -33,9 +39,17 @@ set runtimepath^=~/.vim
 syntax enable
 colorscheme xoria256
 
-" Vim go setting
+" ##################
+" # Vim go setting #
+" ##################
 let g:go_highlight_structs = 1 
 let g:go_highlight_methods = 1
 let g:go_highlight_functions = 1
 let g:go_highlight_operators = 1
 let g:go_highlight_build_constraints = 1
+
+" #######################
+" # Auto enter NERDTree #
+" #######################
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
