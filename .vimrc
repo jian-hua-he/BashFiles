@@ -1,3 +1,4 @@
+" Vundle Setting
 set nocompatible
 filetype off
 
@@ -11,6 +12,14 @@ call vundle#end()
 
 filetype plugin indent on
 
+" Vim Plug
+call plug#begin('~/.vim/plugged')
+
+Plug 'fatih/vim-go'
+
+call plug#end()
+
+" General
 set nu
 set ai
 set cursorline
@@ -24,4 +33,11 @@ set list
 set listchars=tab:→\ ,trail:⋅,extends:❯,precedes:❮,space:⋅
 set runtimepath^=~/.vim
 syntax enable
-colorscheme spring-night
+colorscheme xoria256
+
+" Vim go setting
+let g:go_highlight_structs = 1 
+let g:go_highlight_methods = 1
+let g:go_highlight_functions = 1
+let g:go_highlight_operators = 1
+let g:go_highlight_build_constraints = 1
