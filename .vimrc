@@ -5,18 +5,15 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 
 call vundle#begin()
-
+Plugin 'isRuslan/vim-es6'
 Plugin 'scrooloose/nerdtree'
-
 call vundle#end()
 
 filetype plugin indent on
 
 " Vim Plug
 call plug#begin('~/.vim/plugged')
-
 Plug 'fatih/vim-go'
-
 call plug#end()
 
 " General
