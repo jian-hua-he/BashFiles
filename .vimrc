@@ -48,8 +48,13 @@ let g:go_highlight_functions = 1
 let g:go_highlight_operators = 1
 let g:go_highlight_build_constraints = 1
 
-" #######################
-" # Auto enter NERDTree #
-" #######################
+" ####################
+" # NERDTree Setting #
+" ####################
+" Open by default
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+
+" Prettier
+let NERDTreeMinimalUI = 1
+let NERDTreeDirArrows = 1
