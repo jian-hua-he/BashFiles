@@ -9,6 +9,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'isRuslan/vim-es6'
 Plugin 'scrooloose/nerdtree'
+Plugin 'ryanoasis/vim-devicons'
 Plugin 'git@github.com:vim-scripts/xoria256.vim.git'
 call vundle#end()
 
@@ -58,3 +59,9 @@ autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 " Prettier
 let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
+
+" ########################
+" # Vim Devicons Setting #
+" ########################
+set encoding=utf8
+set guifont=DroidSansMono\ Nerd\ Font:h12
