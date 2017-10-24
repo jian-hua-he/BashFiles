@@ -65,3 +65,9 @@ let NERDTreeDirArrows = 1
 " ########################
 set encoding=utf8
 set guifont=DroidSansMono\ Nerd\ Font:h12
+
+" ############
+" # Shortcut #
+" ############
+nnoremap <S-up> :m .-2<CR>==
+nnoremap <S-down> :m .+1<CR>==
