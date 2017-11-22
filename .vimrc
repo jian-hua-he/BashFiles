@@ -11,6 +11,7 @@ Plugin 'isRuslan/vim-es6'
 Plugin 'scrooloose/nerdtree'
 Plugin 'ryanoasis/vim-devicons'
 Plugin 'git@github.com:vim-scripts/xoria256.vim.git'
+Plugin 'https://github.com/kshenoy/vim-signature.git'
 call vundle#end()
 
 filetype plugin indent on
