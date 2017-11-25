@@ -1,0 +1,24 @@
+" ##################
+" # Vundle Setting #
+" ##################
+set nocompatible
+filetype off
+
+set rtp+=~/.vim/bundle/Vundle.vim
+
+call vundle#begin()
+Plugin 'isRuslan/vim-es6'
+Plugin 'scrooloose/nerdtree'
+Plugin 'ryanoasis/vim-devicons'
+Plugin 'git@github.com:vim-scripts/xoria256.vim.git'
+Plugin 'https://github.com/kshenoy/vim-signature.git'
+call vundle#end()
+
+filetype plugin indent on
+
+" ############
+" # Vim Plug #
+" ############
+call plug#begin('~/.vim/plugged')
+Plug 'fatih/vim-go'
+call plug#end()
