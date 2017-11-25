@@ -1,5 +1,21 @@
 # BashFiles
 
+## Prerequisites
+
+- curl
+- git
+
 ## Install
 
-Exec `$ bash install.sh` in termial
+Open termial and exec command below
+```
+$ bash install.sh
+```
+
+## Uninstall
+
+Remove files or folder below:
+
+- ~/.bash_profile
+- ~/.vim
+- ~/.vimrc
