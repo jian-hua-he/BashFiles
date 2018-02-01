@@ -23,4 +23,8 @@ alias gaa="git add ."
 alias gcm="git commit -m"
 alias gst="git status"
 alias gfa="git fetch -a"
+alias gm="git merge --no-ff"
+
+# Node
+alias nls="npm list -g --depth=0"
 
