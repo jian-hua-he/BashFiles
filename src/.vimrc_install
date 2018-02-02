@@ -10,6 +10,7 @@ call vundle#begin()
 Plugin 'isRuslan/vim-es6'
 Plugin 'scrooloose/nerdtree'
 Plugin 'ryanoasis/vim-devicons'
+Plugin 'Chiel92/vim-autoformat'
 Plugin 'git@github.com:vim-scripts/xoria256.vim.git'
 Plugin 'https://github.com/kshenoy/vim-signature.git'
 call vundle#end()

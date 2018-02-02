@@ -10,6 +10,7 @@ call vundle#begin()
 Plugin 'isRuslan/vim-es6'
 Plugin 'scrooloose/nerdtree'
 Plugin 'ryanoasis/vim-devicons'
+Plugin 'Chiel92/vim-autoformat'
 Plugin 'git@github.com:vim-scripts/xoria256.vim.git'
 Plugin 'https://github.com/kshenoy/vim-signature.git'
 call vundle#end()
@@ -41,14 +42,23 @@ set runtimepath^=~/.vim
 syntax enable
 colorscheme xoria256
 
-" ##################
-" # Vim go setting #
-" ##################
+" ######################
+" # Vim Golang Setting #
+" ######################
 let g:go_highlight_structs = 1 
 let g:go_highlight_methods = 1
 let g:go_highlight_functions = 1
 let g:go_highlight_operators = 1
 let g:go_highlight_build_constraints = 1
+
+" #################################
+" # Vim Autoformat ESLint Setting #
+" #################################
+au BufWrite * :Autoformat
+let verbose = 1
+let g:autoformat_autoindent = 1
+let g:autoformat_retab = 1
+let g:autoformat_remove_trailing_spaces = 1
 
 " ####################
 " # NERDTree Setting #
