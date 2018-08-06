@@ -21,6 +21,7 @@ alias glg="git log --graph --abbrev-commit --decorate --format=format:'%C(bold b
 alias gck="git checkout"
 alias gaa="git add ."
 alias gcm="git commit -m"
+alias gcam="git commit --amend -m"
 alias gst="git status"
 alias gfa="git fetch -a"
 alias gm="git merge --no-ff"
